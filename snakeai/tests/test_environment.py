@@ -155,4 +155,4 @@ def test_env_when_new_episode_starts_resets_previous_state():
     assert env.stats.fruits_eaten == 0
     assert env.stats.timesteps_survived == 0
     assert env.stats.termination_reason is None
-    assert set(env.stats.action_counter.values()) == {0}
+    assert set(env.stats.action_counter.values()) == {0}
