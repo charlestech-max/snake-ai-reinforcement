@@ -118,4 +118,4 @@ def test_turn_left_turns_relatively_to_current_direction():
     snake.turn_left()
     assert snake.direction == SnakeDirection.EAST
     snake.turn_left()
-    assert snake.direction == SnakeDirection.NORTH
+    assert snake.direction == SnakeDirection.NORTH
