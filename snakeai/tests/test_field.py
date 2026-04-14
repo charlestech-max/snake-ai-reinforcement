@@ -88,4 +88,4 @@ def test_get_random_empty_cell_no_cells_left_throws():
     ])
     field.create_level()
     with pytest.raises(IndexError):
-        field.get_random_empty_cell()
+        field.get_random_empty_cell()
