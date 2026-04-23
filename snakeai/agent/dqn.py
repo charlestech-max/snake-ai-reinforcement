@@ -145,4 +145,4 @@ class DeepQNetworkAgent(AgentBase):
         """
         state = self.get_last_frames(observation)
         q = self.model.predict(state)[0]
-        return np.argmax(q)
+        return np.argmax(q)
