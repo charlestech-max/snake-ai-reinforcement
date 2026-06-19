@@ -1,1 +1,1 @@
-from .pygame import PyGameGUI
+from .pygame import PyGameGUI
