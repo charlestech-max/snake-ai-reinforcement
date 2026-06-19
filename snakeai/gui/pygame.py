@@ -169,4 +169,4 @@ class Colors:
 
 class QuitRequestedError(RuntimeError):
     """ Gets raised whenever the user wants to quit the game. """
-    pass
+    pass
