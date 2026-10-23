@@ -17,4 +17,4 @@ class HumanAgent(AgentBase):
         return SnakeAction.MAINTAIN_DIRECTION
 
     def end_episode(self):
-        pass
+        pass
