@@ -25,4 +25,4 @@ class AgentBase(object):
 
 from .dqn import DeepQNetworkAgent
 from .human import HumanAgent
-from .random_action import RandomActionAgent
+from .random_action import RandomActionAgent

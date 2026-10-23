@@ -17,4 +17,4 @@ class RandomActionAgent(AgentBase):
         return random.choice(ALL_SNAKE_ACTIONS)
 
     def end_episode(self):
-        pass
+        pass
